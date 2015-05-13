@@ -64,7 +64,7 @@ void openAprsSock(){
 	freeaddrinfo(servinfo); // all done with this structure	
 }
 
-void sendAprsBeacon(char callsign[10],char pass[6],char loc[20],char phg[7],char text[100]){
+void sendAprsBeacon(char callsign[10],char pass[6],char loc[20],char phg[9],char text[100]){
 	char toSend[300];
 	char ipstr[INET_ADDRSTRLEN];
 	int sockfd;
