@@ -182,7 +182,7 @@ void delRepeater(struct sockaddr_in address){
                         memset(repeaterList[i].geoLocation,0,20);
                         memset(repeaterList[i].aprsPass,0,6);
                         memset(repeaterList[i].aprsBeacon,0,100);
-                        memset(repeaterList[i].aprsPHG,0,7);
+                        memset(repeaterList[i].aprsPHG,0,9);
                         syslog(LOG_NOTICE,"Repeater deleted from list pos %i",i);
                         return;
                 }
