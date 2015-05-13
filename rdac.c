@@ -78,7 +78,7 @@ void delRdacRepeater(struct sockaddr_in address){
                         memset(rdacList[i].geoLocation,0,20);
                         memset(rdacList[i].aprsPass,0,5);
                         memset(rdacList[i].aprsBeacon,0,100);
-                        memset(rdacList[i].aprsPHG,0,7);
+                        memset(rdacList[i].aprsPHG,0,9);
 			syslog(LOG_NOTICE,"Deleted repeater in rdac list on pos %i",i);
 			return;
 		} 
