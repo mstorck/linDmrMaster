@@ -67,7 +67,7 @@ struct repeater{
 	unsigned char geoLocation[20];
 	unsigned char aprsPass[6];
 	unsigned char aprsBeacon[100];
-	unsigned char aprsPHG[7];
+	unsigned char aprsPHG[9];
 	int autoReflector;
 	int upDated;
 };
